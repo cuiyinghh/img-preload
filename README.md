@@ -13,8 +13,8 @@
 Page({
   data: {
     imgList: [
-      "http://img.zuoyebang.cc/zyb_1090d694f2997dc2a36352ca978638bb.jpg@f_png",
-      "http://img.zuoyebang.cc/zyb_db90eeeb6da647b62ccc0499a872daa8.jpg@f_png"
+      "https://www.pexels.com/assets/heaa019b3d0e8b.jpg",
+      "https://static.pexels.com/photos/895898/pexels-photo-895898.jpeg"
     ]
   },
   //图片全部加载完成回调
