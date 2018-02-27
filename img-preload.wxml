@@ -1,0 +1,3 @@
+<view class="img-preload">
+  <image wx:for="{{imgList}}" wx:key="{{index}}" src="{{item}}" data-index="{{index}}" bindload="imgOnLoad" binderror="imgOnError" style="width:0;height:0;opacity:0" />
+</view>
