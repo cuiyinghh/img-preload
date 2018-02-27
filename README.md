@@ -4,9 +4,12 @@
 ## 使用方法
 
 ### 父组件wxml
+```javascript
 <imgPreload imgList="{{imgList}}" bind:loadSuccess="imgLoadCb"></imgPreload>
+```
 
 ### 父组件js
+```javascript
 Page({
   data: {
     imgList: [
@@ -19,4 +22,4 @@ Page({
     console.log("图片已经全部加载完成了");
   }
 })
-  
+```
